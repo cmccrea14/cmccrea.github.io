@@ -27,7 +27,7 @@
     font-family: cursive;
 }
 .p2div {
-    font-family: cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
     width: 150px;
@@ -51,7 +51,7 @@
     font-family: cursive;
 }
 .p3div {
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 24px;
     width: 150px;
