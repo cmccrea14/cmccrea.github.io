@@ -31,6 +31,8 @@
 .long {
     padding: 20px 86px;
 }
-.empty {
-
+.green {
+    background-color: green;
+    border-color: green;
 }
+
