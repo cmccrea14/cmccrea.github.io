@@ -1,0 +1,59 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.poster-1 {
+    border: 10px ridge #654f2b;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+}
+.poster-1 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px black;
+    padding: 8px;
+}
+.poster-1 img {
+    width: 80px;
+    box-shadow: inset 0px 0px 10px black;
+    display: block;
+}
+.poster-2 {
+    border: 10px ridge #654f2b;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+}
+.poster-2 div {
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+    font-weight: 700;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px black;
+    padding: 8px;
+}
+.poster-2 img {
+    width: 80px;
+    box-shadow: inset 0px 0px 10px black;
+    display: block;
+}
+.poster-3 {
+    border: 10px ridge #654f2b;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+}
+.poster-3 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px black;
+    padding: 8px;
+}
+.poster-3 img {
+    width: 80px;
+    box-shadow: inset 0px 0px 10px black;
+    display: block;
+}
