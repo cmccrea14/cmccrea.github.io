@@ -18,7 +18,7 @@ body {
     background-color: rgb(227, 250, 227);
     width: 350px;
     padding: 0px;
-    background: white;
+    background: rgb(236, 244, 236);
     display: flex;
     flex-direction: column;
 }
@@ -33,6 +33,7 @@ body {
 }
 .card-style-1 p {
     font-family: sans-serif;
+    text-align: center;
 }
 .card-style-1 a {
     background-color: green;
@@ -40,5 +41,8 @@ body {
     text-align: center;
     font-family: sans-serif;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+a {
+    padding: 25px;
 }
