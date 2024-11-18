@@ -12,8 +12,8 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
+    justify-content: flex-start;
+    flex-direction: column;
     padding-right: 60px;
     h1 {
         font-size: 50px;
@@ -24,6 +24,74 @@ body {
     h4 {
         font-size: 20px;
         color: white;
-        padding-top: 70px;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    a {
+        text-decoration: none;
+        color: red;
+        margin-left: 200px;
+        margin-top: 10px;
+        font-weight:bold
+    }
+}
+#hero-2 {
+    background-image: url(../images/sun.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        padding-right: 10px;
+        color: grey;
+    }
+    h4 {
+        font-size: 20px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(145, 33, 83);
+        margin-left: 200px;
+        margin-top: 10px;
+        font-weight:bold
+    }
+}
+#hero-3 {
+    background-image: url(../images/desk.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    h1 {
+        font-size: 50px;
+        padding-top: 40%;
+        padding-left: 100px;
+        padding-right: 10px;
+        color: grey;
+    }
+    h4 {
+        font-size: 20px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(145, 33, 83);
+        margin-left: 200px;
+        margin-top: 10px;
+        font-weight:bold
     }
 }
