@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: monospace;
+}
+#hero-1 {
+    background-image: url(../images/bear.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-right: 60px;
+    h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        padding-right: 10px;
+        color: yellow;
+    }
+    h4 {
+        font-size: 20px;
+        color: white;
+        padding-top: 70px;
+    }
+}
