@@ -23,7 +23,6 @@
         top: 10%;
         left: 15%;
     }
-    
     h2 {
         font-size: 72px;
         margin-bottom: 36px;
@@ -45,7 +44,7 @@
         border-radius: 36px;
     }
     #links {
-        margin-left: 500px;
+        margin-left: 300px;
         width: max-content;
     }
    
