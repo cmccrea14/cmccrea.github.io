@@ -23,16 +23,19 @@ body {
     }
     h4 {
         font-size: 20px;
-        color: white;
+        color: darkgrey;
         margin-top: 0px;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     a {
         text-decoration: none;
-        color: red;
-        margin-left: 200px;
+        color: rgb(65, 8, 8);
+        margin-left: 400px;
         margin-top: 10px;
-        font-weight:bold
+        font-weight: bold;
+        font-size: 18px;
+        background-color: darkgreen;
+        margin-right: auto;
     }
 }
 #hero-2 {
@@ -46,23 +49,28 @@ body {
     flex-direction: column;
     padding-right: 60px;
     h1 {
-        font-size: 50px;
+        font-size: 60px;
         padding-left: 100px;
         padding-right: 10px;
+        padding-top: 50px;
         color: grey;
     }
     h4 {
-        font-size: 20px;
+        font-size: 30px;
         color: black;
         margin-top: 0px;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     a {
         text-decoration: none;
+        font-size: 14px;
         color: rgb(145, 33, 83);
-        margin-left: 200px;
-        margin-top: 10px;
-        font-weight:bold
+        margin-left: 400px;
+        margin: auto;
+        font-weight: bold;
+        background-color: aliceblue;
+        border-radius: 12px;
+        text-align: center;
     }
 }
 #hero-3 {
@@ -76,8 +84,8 @@ body {
     padding-right: 60px;
     h1 {
         font-size: 50px;
-        padding-top: 40%;
-        padding-left: 100px;
+        padding-top: 30%;
+        padding-left: 70px;
         padding-right: 10px;
         color: grey;
     }
@@ -90,7 +98,7 @@ body {
     a {
         text-decoration: none;
         color: rgb(145, 33, 83);
-        margin-left: 200px;
+        margin-left: 300px;
         margin-top: 10px;
         font-weight:bold
     }
