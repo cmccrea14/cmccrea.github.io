@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.homepage {
+    display: flex;
+    width: 1000%;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+        font-size: 48px;
+        padding: 400px;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+    }
+}
+img {
+   background-image: url(../images/lizard.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1 {
+        font-size: 8rem;
+        padding-left: 100px;
+    }
+}
