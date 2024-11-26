@@ -224,4 +224,13 @@ a {
     .three-cards a {
         padding: 10px;
     }
+    #nav h2 {
+        font-size: 12px;
+    }
+    #nav-links {
+        flex-direction: column;
+    }
+    .social-media {
+        flex-direction: column;
+    }
 }
