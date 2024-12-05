@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    background-color: rgb(90, 154, 121);
+    display: flex;
+    align-items: center;
+} 
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+nav > .logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    box-shadow: -2px 2px 5px #5558;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 1s,
+    ;
+}
+.dropdown-menu a {
+    background-color: grey;
+    width: 100%;
+    min-width: 150px;
+    &:hover {
+        background-color: rgb(224, 168, 71);
+    }
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#hero-1 {
+    background-image: url(../images/homer.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-top: 12px;
+    h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        color: rgb(224, 168, 71);
+    }
+    h4 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 500px;
+    }
+}
+#hero-2 {
+    background-image: url(../images/gerald.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-top: 12px;
+    h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        color: rgb(224, 168, 71);
+    }
+    h4 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 500px;
+    }
+}
+#hero-3 {
+    background-image: url(../images/spot-mcfly.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-top: 12px;
+    h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        color: rgb(224, 168, 71);
+    }
+    h4 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 500px;
+    }
+}
+#main-hero {
+    background-image: url("../images/funtime.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 320px) {
+    #nav {
+        background-color: coral;
+        flex-direction: column;
+        gap: 15px;
+        .dropdown-menu {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+

@@ -1,0 +1,141 @@
+@import url("https://use.typekit.net/qdj1ruu.css");
+@import url("https://use.typekit.net/qdj1ruu.css");
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+nav {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    img {
+        width: 90px;
+    }
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+     &:hover {
+        background-color: #A97C50;
+    }
+}
+nav > .logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    box-shadow: -2px 2px 5px #5558;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 1s,
+    ;
+}
+.dropdown-menu a {
+    background-color: rgb(30, 77, 30);
+    width: 100%;
+    min-width: 150px;
+    &:hover {
+        background-color: #4F392A;
+    }
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#hero {
+    width: 100%;
+    height: ;
+}
+#footer {
+    background: linear-gradient(to bottom, #A97C50, #136439);
+    color: white;
+    padding: 12px;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin:48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+.card {
+    width: 350px;
+    border: 2px solid #583827;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #1e3b25;
+    background: linear-gradient(-50deg, #346c31, #8cc282, #D7CD26);
+    display: flex;
+    flex-direction: column;
+
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.card p {
+    font-size: 18px;
+    flex: 1;
+}
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A97C50;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #136439;
+    transition:
+        background-color 0.5s, 
+        color 0.5s
+    ;
+}
+.card a:hover {
+    background-color: transparent;
+    color: white;
+}
+a {
+    font-family: "flower-power", sans-serif;
+}
+h1 {
+    font-family: "bree-serif", serif;
+}
+h2 {
+    font-family: "bree-serif", serif;
+}
+
