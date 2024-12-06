@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: grey;
+}
+.center-column {
+    background-color: grey;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+    
+}
+img {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+}
+.single-column {
+    width: 50%; 
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#info {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+}
+#info2 {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card #card1 #card3 {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+#card1 {
+    background-image: url(../images/49ers.jpg);
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+#card2 {
+    padding: 24px 24px;
+    margin-top: 200px;
+}
+#card3 {
+    background-image: url(../images/chiefs.jpg);
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 24px;
+}
+h3 {
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media screen and (max-width: 768px) {
+    #info {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #info { 
+        flex-direction: column;
+        text-align: center;
+    }
+}
