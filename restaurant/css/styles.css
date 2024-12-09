@@ -9,7 +9,7 @@ body {
     background-color: lightgrey;
 }
 nav {
-    background-color: grey;
+    background-color: rgb(145, 143, 143);
     display: flex;
     align-items: center;
     img {
@@ -19,7 +19,7 @@ nav {
 nav a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
      &:hover {
         background-color: #A97C50;
@@ -61,10 +61,43 @@ nav > .logo {
     background-image: url(../images/mainhero.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        margin-top: 0px;
+        margin: 14px;
+        font-size: 100px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    h4 {
+        font-size: 48px;
+        color: white;
+        margin-left: 48px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        display: inline-block;
+        padding: 12px;
+        margin-left: 50px;
+        border: 5px solid white;
+        background-color: #A97C50;
+    }
+}
+#hero-content {
+    font-size: 0px;
+    margin-bottom: 36px;
 }
 #footer-navbar {
-    background: linear-gradient(to bottom, #A97C50, #136439);
-    color: white;
+    background: linear-gradient(to bottom, #D7CD26, #136439);
+    color: black;
     padding: 12px;
     display: flex;
     justify-content: center;
@@ -90,14 +123,11 @@ nav > .logo {
 }
 .card {
     width: 350px;
-    border: 2px solid #583827;
-    border-radius: 5px;
     padding: 10px;
     box-shadow: -4px 4px 12px #1e3b25;
     background: linear-gradient(-50deg, #346c31, #8cc282, #D7CD26);
     display: flex;
     flex-direction: column;
-
 }
 .card img {
     width: 100%;
@@ -119,11 +149,11 @@ nav > .logo {
     flex: 1;
 }
 .card a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: #A97C50;
+    background-color: transparent;
     padding: 10px;
     display: inline-block;
     border-radius: 10px;
@@ -136,8 +166,8 @@ nav > .logo {
     ;
 }
 .card a:hover {
-    background-color: transparent;
-    color: white;
+    background-color:#D7CD26;
+    color: black;
 }
 @media screen and (max-width: 768px) {
     #centered-columns {
@@ -177,14 +207,28 @@ nav > .logo {
         height: 100%;
         object-fit: cover;
     }
+    #hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    h4 {
+        font-size: 24px;
+        flex-direction: column;
+    }
+    h2 {
+        flex-direction: column;
+    }
 }
 
 a {
     font-family: "flower-power", sans-serif;
 }
 h1 {
-    font-family: "bree-serif", serif;
+    font-family: "flower-power", sans-serif;
 }
 h2 {
+    font-family: "bree-serif", serif;
+}
+h4 {
     font-family: "bree-serif", serif;
 }
