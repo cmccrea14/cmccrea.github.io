@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lightgrey;
 }
 nav {
     background-color: grey;
@@ -56,20 +57,24 @@ nav > .logo {
     visibility: visible;
 }
 #hero {
-    width: 100%;
-    height: ;
+    height: 90vh;
+    background-image: url(../images/mainhero.jpg);
+    background-size: cover;
+    background-position: center;
 }
-#footer {
+#footer-navbar {
     background: linear-gradient(to bottom, #A97C50, #136439);
     color: white;
     padding: 12px;
+    display: flex;
+    justify-content: center;
 }
 #footer a {
     text-decoration: none;
     color: white;
 }
 #footer-navbar {
-    width: 800px;
+    width: 100%;
     margin: 0px auto;
     display: flex;
     justify-content: center;
@@ -103,9 +108,14 @@ nav > .logo {
     font-size: 36px;
     margin-top: 12px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .card p {
     font-size: 18px;
+    display: flex;
+    justify-content: center;
     flex: 1;
 }
 .card a {
@@ -129,6 +139,46 @@ nav > .logo {
     background-color: transparent;
     color: white;
 }
+@media screen and (max-width: 768px) {
+    #centered-columns {
+        flex-direction: column;
+    }
+    .logo  {
+        margin: 0px auto;
+        padding: 12px;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    nav a {
+        padding: 12px;
+    }
+    #hero h1 {
+        font-size: 36px;
+    }
+    #hero h3 {
+        font-size: 22px;
+    }
+    .three-cards a {
+        padding: 10px;
+    }
+    #nav h2 {
+        font-size: 12px;
+    }
+    #menu.html {
+        flex-direction: column;
+    }
+    #footer-navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 a {
     font-family: "flower-power", sans-serif;
 }
